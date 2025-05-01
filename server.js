@@ -15,7 +15,7 @@ app.post("/api/notify", async (req, res) => {
       `Name: ${firstName} ${lastName}\nEmail: ${email}\nPhone: ${phone}`,
       {
         headers: {
-          Title: "ONBOARDING FORM SUBMISSION",
+          Title: "NEW ONBOARDING FORM SUBMISSION",
           Priority: "urgent",
         },
       }

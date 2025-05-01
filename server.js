@@ -21,6 +21,7 @@ app.post("/api/notify", async (req, res) => {
       }
     );
 
+    console.log("Notification sent successfully");
     res.status(200).json({ success: true });
   } catch (error) {
     console.error("Notification error:", error.message);
